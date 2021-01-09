@@ -1,8 +1,8 @@
-               A. Common Subsequence
-          time limit per test1 second
-        memory limit per test256 megabytes
-              input standard input
-              output standard output
+                                      A. Common Subsequence
+                                   time limit per test1 second
+                                   memory limit per test256 megabytes
+                                      input standard input
+                                      output standard output
 	      
 You are given two arrays of integers a1,…,an and b1,…,bm.
 
