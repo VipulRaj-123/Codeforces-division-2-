@@ -1,8 +1,8 @@
-/*         A. Choose Two Numbers
-         time limit per test1 second
-      memory limit per test256 megabytes
-            inputstandard input
-            outputstandard output
+/*                                    A. Choose Two Numbers
+                                     time limit per test1 second
+                                   memory limit per test256 megabytes
+                                        inputstandard input
+                                       outputstandard output
 
 You are given an array A, consisting of n positive integers a1,a2,…,an, and an array B, consisting of m positive integers b1,b2,…,bm.
 
