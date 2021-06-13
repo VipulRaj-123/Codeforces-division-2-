@@ -12,9 +12,9 @@ Being a minor goddess, she cannot arbitrarily change the song. Instead, for each
 Given the song as a sequence of integers describing the notes, find out the maximal, achievable diversity.
 
 Input
-The input consists of multiple test cases. The first line contains an integer t (1=t=10000) — the number of test cases. Then t test cases follow, each one is described in two lines.
+The input consists of multiple test cases. The first line contains an integer t (1=t=10000) â€” the number of test cases. Then t test cases follow, each one is described in two lines.
 
-In the first line of each test case there is a single integer n (1=n=105) denoting the length of the song. The next line contains a sequence of n integers x1,x2,…,xn (1=x1=x2=…=xn=2·n), describing the song.
+In the first line of each test case there is a single integer n (1=n=105) denoting the length of the song. The next line contains a sequence of n integers x1,x2,â€¦,xn (1=x1=x2=â€¦=xn=2Â·n), describing the song.
 
 The sum of n over all test cases does not exceed 105.
 
