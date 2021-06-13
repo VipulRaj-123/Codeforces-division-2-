@@ -12,11 +12,11 @@ mex({2,5,1})=0.
 Your task is to calculate the number of distinct elements in S after k operations will be done.
 
 Input
-The input consists of multiple test cases. The first line contains a single integer t (1=t=100) — the number of test cases. The description of the test cases follows.
+The input consists of multiple test cases. The first line contains a single integer t (1=t=100) â€” the number of test cases. The description of the test cases follows.
 
-The first line of each test case contains two integers n, k (1=n=105, 0=k=109) — the initial size of the multiset S and how many operations you need to perform.
+The first line of each test case contains two integers n, k (1=n=105, 0=k=109) â€” the initial size of the multiset S and how many operations you need to perform.
 
-The second line of each test case contains n distinct integers a1,a2,…,an (0=ai=109) — the numbers in the initial multiset.
+The second line of each test case contains n distinct integers a1,a2,â€¦,an (0=ai=109) â€” the numbers in the initial multiset.
 
 It is guaranteed that the sum of n over all test cases does not exceed 105.
 
