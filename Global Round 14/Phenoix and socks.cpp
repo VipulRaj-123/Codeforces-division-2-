@@ -9,13 +9,13 @@ The sock store may perform each of these changes any number of times. Note that 
 A matching pair of socks is a left and right sock with the same color. What is the minimum cost for Phoenix to make n/2 matching pairs? Each sock must be included in exactly one matching pair.
 
 Input
-The input consists of multiple test cases. The first line contains an integer t (1=t=1000) — the number of test cases.
-The first line of each test case contains three integers n, l, and r (2=n=2·105; n is even; 0=l,r=n; l+r=n) — the total number of socks, and the number of left and right socks, respectively.
-The next line contains n integers ci (1=ci=n) — the colors of the socks. The first l socks are left socks, while the next r socks are right socks.
-It is guaranteed that the sum of n across all the test cases will not exceed 2·105.
+The input consists of multiple test cases. The first line contains an integer t (1=t=1000) â€” the number of test cases.
+The first line of each test case contains three integers n, l, and r (2=n=2Â·105; n is even; 0=l,r=n; l+r=n) â€” the total number of socks, and the number of left and right socks, respectively.
+The next line contains n integers ci (1=ci=n) â€” the colors of the socks. The first l socks are left socks, while the next r socks are right socks.
+It is guaranteed that the sum of n across all the test cases will not exceed 2Â·105.
 
 Output
-For each test case, print one integer — the minimum cost for Phoenix to make n/2 matching pairs. Each sock must be included in exactly one matching pair.
+For each test case, print one integer â€” the minimum cost for Phoenix to make n/2 matching pairs. Each sock must be included in exactly one matching pair.
 
 Example
 input
