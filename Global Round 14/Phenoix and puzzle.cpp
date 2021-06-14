@@ -4,9 +4,9 @@ A puzzle piece
 The goal of the puzzle is to create a square using the n pieces. He is allowed to rotate and move the pieces around, but none of them can overlap and all n pieces must be used (of course, the square shouldn't contain any holes as well). Can he do it?
 
 Input
-The input consists of multiple test cases. The first line contains an integer t (1=t=104) — the number of test cases.
+The input consists of multiple test cases. The first line contains an integer t (1=t=104) â€” the number of test cases.
 
-The first line of each test case contains an integer n (1=n=109) — the number of puzzle pieces.
+The first line of each test case contains an integer n (1=n=109) â€” the number of puzzle pieces.
 
 Output
 For each test case, if Phoenix can create a square with the n puzzle pieces, print YES. Otherwise, print NO.
@@ -47,4 +47,4 @@ int main()
     return 0;
 } 
 
- 
+Â 
