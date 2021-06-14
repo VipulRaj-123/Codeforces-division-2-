@@ -4,9 +4,9 @@ Formally, rearrange the array w so that for each i (1=i=n), ?j=1iwj?x.
 
 Input
 
-The input consists of multiple test cases. The first line contains an integer t (1=t=1000) — the number of test cases.
-The first line of each test case contains two integers n and x (1=n=100; 1=x=104) — the number of gold pieces that Phoenix has and the weight to avoid, respectively.
-The second line of each test case contains n space-separated integers (1=wi=100) — the weights of the gold pieces. It is guaranteed that the weights are pairwise distinct.
+The input consists of multiple test cases. The first line contains an integer t (1=t=1000) â€” the number of test cases.
+The first line of each test case contains two integers n and x (1=n=100; 1=x=104) â€” the number of gold pieces that Phoenix has and the weight to avoid, respectively.
+The second line of each test case contains n space-separated integers (1=wi=100) â€” the weights of the gold pieces. It is guaranteed that the weights are pairwise distinct.
 
 Output
 For each test case, if Phoenix cannot place all n pieces without the scale exploding, print NO. Otherwise, print YES followed by the rearranged array w. If there are multiple solutions, print any.
