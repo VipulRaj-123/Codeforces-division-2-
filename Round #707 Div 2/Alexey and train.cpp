@@ -2,7 +2,7 @@
 Alexey is travelling on a train. Unfortunately, due to the bad weather, the train moves slower that it should!
 Alexey took the train at the railroad terminal. Let's say that the train starts from the terminal at the moment 0. Also, let's say that the train will visit n stations numbered from 1 to n along its way, and that Alexey destination is the station n.
 Alexey learned from the train schedule n integer pairs (ai,bi) where ai is the expected time of train's arrival at the i-th station and bi is the expected time of departure
-Also, using all information he has, Alexey was able to calculate n integers tm1,tm2,…,tmn where tmi is the extra time the train need to travel from the station i-1 to the station i. Formally, the train needs exactly ai-bi-1+tmi time to travel from station i-1 to station i (if i=1 then b0 is the moment the train leave the terminal, and it's equal to 0).
+Also, using all information he has, Alexey was able to calculate n integers tm1,tm2,â€¦,tmn where tmi is the extra time the train need to travel from the station i-1 to the station i. Formally, the train needs exactly ai-bi-1+tmi time to travel from station i-1 to station i (if i=1 then b0 is the moment the train leave the terminal, and it's equal to 0).
 The train leaves the station i, if both conditions are met:
 
 it's on the station for at least ?bi-ai2? units of time (division with ceiling);
@@ -11,13 +11,13 @@ current time =bi.
 Since Alexey spent all his energy on prediction of time delays, help him to calculate the time of arrival at the station n.
 
 Input
-The first line contains one integer t (1=t=100) — the number of test cases.
-The first line of each test case contains the single integer n (1=n=100) — the number of stations.
+The first line contains one integer t (1=t=100) â€” the number of test cases.
+The first line of each test case contains the single integer n (1=n=100) â€” the number of stations.
 Next n lines contain two integers each: ai and bi (1=ai<bi=106). It's guaranteed that bi<ai+1.
-Next line contains n integers tm1,tm2,…,tmn (0=tmi=106).
+Next line contains n integers tm1,tm2,â€¦,tmn (0=tmi=106).
 
 Output
-For each test case, print one integer — the time of Alexey's arrival at the last station.
+For each test case, print one integer â€” the time of Alexey's arrival at the last station.
 
 Example
 input
