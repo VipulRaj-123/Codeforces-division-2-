@@ -5,7 +5,7 @@ the sum of its elements is as large as possible.
 Since the answer can be very large, print its remainder when divided by 109+7.
 
 Input
-The first line contains an integer t (1=t=10) — the number of test cases you need to solve.
+The first line contains an integer t (1=t=10) â€” the number of test cases you need to solve.
 Each test case consists of a line containing two integers n and k (1=n=105, 1=k=20).
 
 Output
