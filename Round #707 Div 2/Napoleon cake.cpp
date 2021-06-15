@@ -10,9 +10,9 @@ Help Arkady determine which layers of the cake eventually get drenched when the 
 
 Input
 Each test contains multiple test cases. The first line contains the number of test cases t (1=t=20000). Description of the test cases follows.
-The first line of each test case contains a single integer n (1=n=2·105) — the number of layers in the cake.
-The second line of each test case contains n integers a1,a2,…,an (0=ai=n) — the amount of cream poured on the cake after adding each layer.
-It is guaranteed that the sum of n over all test cases does not exceed 2·105.
+The first line of each test case contains a single integer n (1=n=2Â·105) â€” the number of layers in the cake.
+The second line of each test case contains n integers a1,a2,â€¦,an (0=ai=n) â€” the amount of cream poured on the cake after adding each layer.
+It is guaranteed that the sum of n over all test cases does not exceed 2Â·105.
 
 Output
 For each test case, print a single line with n integers. The i-th of the integers should be equal to 1 if the i-th layer from the bottom gets drenched, and 0 otherwise.
