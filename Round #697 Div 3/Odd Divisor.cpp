@@ -3,7 +3,7 @@
 For example, if n=6, then there is x=3. If n=4, then such a number does not exist.
 
 Input
-The first line contains one integer t (1=t=104) — the number of test cases. Then t test cases follow.
+The first line contains one integer t (1=t=104) â€” the number of test cases. Then t test cases follow.
 
 Each test case contains one integer n (2=n=1014).
 
