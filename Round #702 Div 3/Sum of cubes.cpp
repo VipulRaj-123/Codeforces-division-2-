@@ -5,7 +5,7 @@ Formally, you need to check if there are two integers a and b (1=a,b) such that 
 For example, if x=35, then the numbers a=2 and b=3 are suitable (23+33=8+27=35). If x=4, then no pair of numbers a and b is suitable.
 
 Input
-The first line contains one integer t (1=t=100) — the number of test cases. Then t test cases follow.
+The first line contains one integer t (1=t=100) â€” the number of test cases. Then t test cases follow.
 
 Each test case contains one integer x (1=x=1012).
 
