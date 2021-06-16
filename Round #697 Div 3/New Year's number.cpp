@@ -9,9 +9,9 @@ n=8079, then the number n cannot be represented as the sum of the numbers 2020 a
 Help Polycarp to find out whether the number n can be represented as the sum of a certain number of numbers 2020 and a certain number of numbers 2021.
 
 Input
-The first line contains one integer t (1=t=104) — the number of test cases. Then t test cases follow.
+The first line contains one integer t (1=t=104) â€” the number of test cases. Then t test cases follow.
 
-Each test case contains one integer n (1=n=106) — the number that Polycarp wants to represent as the sum of the numbers 2020 and 2021.
+Each test case contains one integer n (1=n=106) â€” the number that Polycarp wants to represent as the sum of the numbers 2020 and 2021.
 
 Output
 For each test case, output on a separate line:
