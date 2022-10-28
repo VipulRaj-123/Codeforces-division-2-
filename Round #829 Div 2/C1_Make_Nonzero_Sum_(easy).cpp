@@ -6,31 +6,30 @@ using namespace std;
 void solve()
 {
     long long n;
-    string s;
-    cin >> n >> s;
-    long long q = 0, a = 0;
-    if (s[n - 1] == 'Q')
+    cin >> n;
+    vector<long long> a(n);
+    for(long long i=0; i<n; i++) cin >> a[i];
+    if (n & 1)
     {
-        cout << "no\n";
+        cout << "-1\n";
         return;
     }
-    else
+    vector<pair<long long, long long>> p;
+    for (long long i = 0; i < n; i += 2)
     {
-        // long long f = 0;
-        fd(i, n - 1, 0)
+        if (a[i] == a[i + 1])
+            p.push_back({i + 1, i + 2});
+        else
         {
-            if (s[i] == 'A')
-                a++;
-            else
-                q++;
-            if (q > a)
-            {
-                cout << "NO\n";
-                return;
-            }
+            p.push_back({i + 1, i + 1});
+            p.push_back({i + 2, i + 2});
         }
     }
-    cout << "YEs\n";
+    cout << p.size() << "\n";
+    for(long long i=0; i<p.size(); i++)
+    {
+        cout << p[i].first << " " << p[i].second << "\n";
+    }
 }
 int main()
 {
