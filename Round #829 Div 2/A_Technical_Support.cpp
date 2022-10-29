@@ -17,7 +17,8 @@ void solve()
     else
     {
         // long long f = 0;
-        fd(i, n - 1, 0)
+        // fd(i, n - 1, 0)
+        for(long long i=n-1; i>=0; --i)
         {
             if (s[i] == 'A')
                 a++;
